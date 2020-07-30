@@ -1,0 +1,4 @@
+D:\ideaProjects\springcloud\springcloud0723\cloud-consumer-feign-hystrix-order80\src\main\java\com\jeffrey\hystrixorder80\controller\HystrixOrder80Controller.java
+D:\ideaProjects\springcloud\springcloud0723\cloud-consumer-feign-hystrix-order80\src\main\java\com\jeffrey\hystrixorder80\FeignHystrixOrderApplication.java
+D:\ideaProjects\springcloud\springcloud0723\cloud-consumer-feign-hystrix-order80\src\main\java\com\jeffrey\hystrixorder80\service\OrderFallbackService.java
+D:\ideaProjects\springcloud\springcloud0723\cloud-consumer-feign-hystrix-order80\src\main\java\com\jeffrey\hystrixorder80\service\OrderHystrixService.java
