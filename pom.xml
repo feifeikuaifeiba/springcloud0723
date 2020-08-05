@@ -17,6 +17,8 @@
         <module>cloud-consumer-feign-hystrix-order80</module>
         <module>cloud-gateway-gateway9527</module>
         <module>cloud-provier-payment8002</module>
+        <module>cloud-config-center3344</module>
+        <module>cloud-config-client3355</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -38,6 +40,8 @@
         <consul.discovery>2.2.3.RELEASE</consul.discovery>
         <hystrix>2.2.3.RELEASE</hystrix>
         <gateway>2.2.3.RELEASE</gateway>
+        <config.server>2.2.3.RELEASE</config.server>
+        <config.client>2.2.3.RELEASE</config.client>
     </properties>
     <!-- 子模块继承之后，提供作用：锁定版本+子modlue不用写groupId和version  -->
     <dependencyManagement>
@@ -132,6 +136,16 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-gateway</artifactId>
                 <version>${gateway}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-config-server</artifactId>
+                <version>${config.server}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-config</artifactId>
+                <version>${config.client}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

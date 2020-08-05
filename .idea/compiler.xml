@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-consumerconsul-order80" />
+        <module name="cloud-config-center3344" />
         <module name="cloud-api-commons" />
         <module name="cloud-eureka-server7001" />
         <module name="cloud-consumer-order80" />
@@ -18,6 +19,7 @@
         <module name="cloud-providerconsul-payment8006" />
         <module name="cloud-consumer-feign-order80" />
         <module name="cloud-provider-hystrix-payment8001" />
+        <module name="cloud-config-client3355" />
       </profile>
     </annotationProcessing>
   </component>
